@@ -24,7 +24,7 @@ CREATE TABLE contacts (
 );
 
 -- CAMPAIGN TABLE --
-DROP TABLE campaign;
+
 CREATE TABLE campaign (
 	cf_id INT NOT NULL PRIMARY KEY,
 	contact_id INT NOT NULL,
